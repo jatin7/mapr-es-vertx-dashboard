@@ -12,13 +12,13 @@
 
 
     <groupId>com.mapr.demo.vertx</groupId>
-    <artifactId>mapr-streams-vertx-dashboard</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>mapr-es-vertx-dashboard</artifactId>
     <name>MapR Streams VertX Dashboard</name>
 
     <properties>
         <stack.version>3.3.3</stack.version>
         <exec.mainClass>com.mapr.demo.Main</exec.mainClass>
+        <mapr.library.version>6.0.0-mapr</mapr.library.version>
     </properties>
 
     <repositories>
@@ -59,14 +59,10 @@
         <dependency>
             <groupId>com.mapr.streams</groupId>
             <artifactId>mapr-streams</artifactId>
-            <version>5.2.0-mapr</version>
+            <version>6.0.0-mapr</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
-            <version>0.9.0.0-mapr-1611-streams-5.2.0</version>
-        </dependency>
+
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
